@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobTask.Data\JobTask.Data.csproj" />
+    <ProjectReference Include="..\JobTask.Domain\JobTask.Domain.csproj" />
+    <ProjectReference Include="..\JobTask.Service\JobTask.Service.csproj" />
+  </ItemGroup>
+
+</Project>
